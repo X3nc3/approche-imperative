@@ -3,9 +3,9 @@ package fr.declaration.variable;
 public class DeclarationApp {
     public static void main (String[] args) {
         byte var1 = 100;
-        short var2 = 30000;
-        int var3 = 5000000;
-        long var4 = 1000000000L;
+        short var2 = 30_000;
+        int var3 = 5_000_000;
+        long var4 = 1_000_000_000L;
         float var5 = 1.3F;
         double var6 = 1.4456d;
         char var7 = 'm';
