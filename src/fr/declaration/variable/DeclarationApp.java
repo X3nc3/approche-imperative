@@ -1,7 +1,7 @@
 package fr.declaration.variable;
 
 public class DeclarationApp {
-    public static void main (String args[]) {
+    public static void main (String[] args) {
         byte var1 = 100;
         short var2 = 30000;
         int var3 = 5000000;
@@ -14,7 +14,7 @@ public class DeclarationApp {
 
         System.out.println(var9);
 
-        String randomString = "Voici le résultat d'un calcul : \n1+5=6";
+        String randomString = "Voici le résultat d'un calcul :\n1+5=6";
 
         System.out.println(randomString);
     }
