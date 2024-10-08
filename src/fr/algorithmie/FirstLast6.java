@@ -11,7 +11,7 @@ public class FirstLast6 {
         /*Test si au moins 1 élément dans le tableau, commence par 6 mais fini pas par 6*/
         /*int[] array = {6, 1};*/
 
-        boolean firstLast6;
+        /*boolean firstLast6;
 
         if (array[0] == 6) {
             firstLast6 = true;
@@ -20,6 +20,10 @@ public class FirstLast6 {
         } else {
             firstLast6 = false;
         }
+        System.out.println(firstLast6);*/
+
+        boolean firstLast6 = array.length >= 1 && (array[0] == 6 || array[array.length - 1] == 6);
+
         System.out.println(firstLast6);
 
     }

@@ -15,11 +15,7 @@ public class InversionContenu {
 
         /*Afficher l'ensemble des éléments des 2 tableaux*/
         for (int i=0; i<array.length; i++) {
-            System.out.println(array[i]);
-        }
-
-        for (int i=0; i<arrayCopy.length; i++) {
-            System.out.println(arrayCopy[i]);
+            System.out.println("Tableau de base :" + array[i] + "Tableau copié :" + arrayCopy[i]);
         }
 
     }

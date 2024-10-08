@@ -11,14 +11,18 @@ public class FirstLast {
         /*Test si au moins 1 élément dans le tableau et que le premier élément et le dernier n'ont pas la meme valeur*/
         /*int[] array = {5, 6};*/
 
-        boolean firstLast6;
+        /*boolean firstLast6;
 
         if (array[0] == array[array.length-1]) {
             firstLast6 = true;
         } else {
             firstLast6 = false;
         }
-        System.out.println(firstLast6);
+        System.out.println(firstLast6);*/
+
+        boolean firstLast = array.length >= 1 && array[0] == array[array.length - 1];
+
+        System.out.println(firstLast);
 
     }
 }
