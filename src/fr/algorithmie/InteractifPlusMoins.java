@@ -1,19 +1,18 @@
 package fr.algorithmie;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class InteractifPlusMoins {
 
     public static void main(String[] args) {
 
-        System.out.println("Choisissez un nombre entre 1 et 100 :");
         Scanner scanner = new Scanner(System.in);
-        int nombreAtrouver;
-        nombreAtrouver = scanner.nextInt();
+        int nombreAtrouver = (int) (Math.random() * 10);
         int nombreCoups = 0;
 
 
-        /*for (int i = 0; i <= nombreAtrouver; i++) {
+        for (int i = 0; i <= nombreAtrouver; i++) {
             System.out.println("Essayez de trouver le nombre :");
             Scanner scanner2 = new Scanner(System.in);
             int nombreChoisi;
@@ -31,9 +30,9 @@ public class InteractifPlusMoins {
                 Scanner scanner3 = new Scanner(System.in);
             }
 
-        }*/
+        }
 
-        // On initialise la condition de fin de jeu
+        /*// On initialise la condition de fin de jeu
         boolean trouve = false;
 
         // On rentre dans une boucle infinie tant que l'utilisateur n'a pas trouvé le
@@ -65,6 +64,6 @@ public class InteractifPlusMoins {
             // de coups
             nombreCoups++;
 
-        } while (!trouve);
+        } while (!trouve);*/
     }
 }
